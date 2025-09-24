@@ -93,15 +93,28 @@ project/
 2. Follow established agent structure patterns
 3. Ensure integration with existing workflow phases
 4. Include comprehensive testing and validation
-5. Update README.md with new agent documentation
+5. **REQUIRED: Update README.md with new agent documentation**
+   - Add agent to the workflow overview section
+   - Include new agent in the phase descriptions
+   - Update the agent list in "Existing Agent System"
+   - Add usage examples and integration patterns
+   - Update workflow diagrams if applicable
 6. Add relevant TODO.md entries for future improvements
+
+**Important**: Any agent updates or additions must include corresponding README updates to maintain documentation accuracy and completeness.
 
 ### Improving Existing Agents
 
 - Maintain backward compatibility with existing workflows
-- Update documentation to reflect changes
+- **REQUIRED: Update documentation to reflect changes**
+  - Modify agent descriptions in README.md
+  - Update workflow phase documentation
+  - Revise usage examples if behavior changes
+  - Update capability lists and limitations
 - Test integration with other workflow phases
 - Consider impact on generated outputs and file formats
+
+**Important**: All agent modifications must be reflected in the README.md to keep documentation synchronized with actual agent capabilities.
 
 ### Code Generation Standards
 
