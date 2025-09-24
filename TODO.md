@@ -24,6 +24,11 @@
 - [ ] Add validation for TypeScript patterns, accessibility standards, and performance guidelines
 - [ ] Generate improvement recommendations to increase component promotion success rate
 
+### Site Implementation Agent Enhancement
+- [ ] If site implementation agent encounters missing component, suggest using BaseUI agent to add it to component library
+- [ ] Create seamless handoff between implementation and component creation workflows
+- [ ] Add component gap detection and automatic workflow routing
+
 ## 🚀 Medium Priority
 
 ### Workflow Automation
@@ -40,6 +45,8 @@
 - [ ] Automated accessibility testing (axe-core)
 - [ ] Cross-browser compatibility verification
 - [ ] Performance benchmarking for components
+- [ ] Make Playwright pull individual component designs to find inconsistencies in BaseUI builder agent
+- [ ] Add component-level visual regression testing for design fidelity validation
 
 ### Documentation Automation
 - [ ] Auto-generate Storybook stories
@@ -69,28 +76,6 @@
 - [ ] 90%+ components need no manual modification  
 - [ ] Real-time preview updates < 100ms
 - [ ] Designer adoption rate > 80%
-
-## � Implementation Phases
-
-### Phase 1 (2 weeks)
-1. Screenshot storage system
-2. Playwright comparison integration
-3. Component generation improvements
-
-### Phase 2 (4 weeks) 
-1. Interactive token editor MVP
-2. Enhanced Figma integration
-3. Workflow automation
-
-### Phase 3 (6 weeks)
-1. Advanced testing framework
-2. Multi-model optimization
-3. Documentation automation
-
-### Phase 4 (Future)
-1. Platform expansion
-2. Real-time collaboration
-3. ML-enhanced analysis
 
 ---
 
