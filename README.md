@@ -376,13 +376,184 @@ Track workflow effectiveness with these metrics:
 
 ## 🎓 Learning Resources
 
-### Agent Creation Context
+### Creating New Agents with agentCreationContext
 
-The `agentCreationContext/` folder contains:
+The `agentCreationContext/` folder provides comprehensive resources for creating well-formatted, effective AI agents. **Always reference these materials when creating new agents** to ensure consistency and quality.
 
-- **Writing Guide**: Best practices for AI agent instruction creation
-- **Model Selection**: Choosing optimal models for different tasks
-- **Claude Format**: Specific patterns for Claude-based agents
+#### 📚 Required Reading
+
+1. **`writingGuide2025.md`** - Comprehensive best practices guide
+   - Core principles for agent identity design
+   - Universal framework for agent structure
+   - Model-specific implementation patterns
+   - Advanced patterns for complex agents
+   - Testing and validation strategies
+
+2. **`modelSelectionGuide.md`** - Choose the right AI model for your agent
+   - Task-specific model recommendations
+   - Performance and cost considerations
+   - Token usage analysis by task type
+   - Break-even analysis for different models
+
+3. **`claudeFormatBestPractice.md`** - Claude-specific formatting patterns
+   - XML structure optimization for Claude
+   - Proven instruction patterns
+   - Error handling approaches
+   - Quality assurance frameworks
+
+#### 🛠️ Agent Creation Process
+
+**Step 1: Review Context Materials**
+```bash
+# Read the guides in order
+1. Start with writingGuide2025.md for overall principles
+2. Review modelSelectionGuide.md for model choice
+3. Check claudeFormatBestPractice.md for formatting (if using Claude)
+```
+
+**Step 2: Define Agent Identity**
+Follow the identity-first design pattern from the writing guide:
+```markdown
+<agent_identity>
+    <name>Your Agent Name</name>
+    <role>Specific function in one sentence</role>
+    <mission>Primary outcome for users</mission>
+    <expertise>Concrete domains and skills</expertise>
+</agent_identity>
+```
+
+**Step 3: Establish Core Objectives**
+Use hierarchical objectives to resolve conflicts:
+```markdown
+<core_objectives>
+    <primary_objective>Most important goal (non-negotiable)</primary_objective>
+    <secondary_objectives>
+        <objective>Important but can be compromised</objective>
+        <objective>Enhancement that adds value</objective>
+    </secondary_objectives>
+    <success_criteria>Measurable outcomes</success_criteria>
+</core_objectives>
+```
+
+**Step 4: Design Behavioral Framework**
+Structure communication style and decision processes:
+```markdown
+<behavioral_framework>
+    <communication_style>
+        <tone>Professional/Technical/Friendly</tone>
+        <formality_level>Appropriate for target users</formality_level>
+        <adaptation>How to match user style</adaptation>
+    </communication_style>
+    
+    <response_approach>
+        <structure>Expected response format</structure>
+        <length>Brief/Detailed/Adaptive guidelines</length>
+        <examples>When and how to provide examples</examples>
+    </response_approach>
+</behavioral_framework>
+```
+
+**Step 5: Define Capabilities and Error Handling**
+Be explicit about what the agent can and cannot do:
+```markdown
+<capabilities_and_limitations>
+    <core_capabilities>
+        <capability>Specific capability with clear scope</capability>
+    </core_capabilities>
+    
+    <explicit_limitations>
+        <limitation>Clear boundary with explanation</limitation>
+    </explicit_limitations>
+    
+    <boundary_handling>
+        <approach>How to handle edge cases</approach>
+        <escalation>When and how to escalate</escalation>
+    </boundary_handling>
+</capabilities_and_limitations>
+```
+
+**Step 6: Create Workflow Standards**
+Define step-by-step processes and quality gates:
+```markdown
+<workflow_standards>
+    <standard_process>
+        <step_1>First action with clear objective</step_1>
+        <step_2>Second action building on step 1</step_2>
+        <!-- Continue with logical progression -->
+    </standard_process>
+    
+    <quality_assurance>
+        <check>Specific validation requirement</check>
+        <check>Another checkpoint for quality</check>
+    </quality_assurance>
+</workflow_standards>
+```
+
+#### ✅ Quality Checklist for New Agents
+
+Before finalizing a new agent, verify:
+
+- [ ] **Identity is clear and specific** - Name, role, mission are memorable and focused
+- [ ] **Objectives are prioritized** - Clear hierarchy prevents decision paralysis
+- [ ] **Behaviors are explicit** - Communication style and processes are well-defined
+- [ ] **Capabilities are realistic** - Agent can actually perform stated functions
+- [ ] **Limitations are honest** - Clear boundaries prevent overconfidence
+- [ ] **Error handling is comprehensive** - Edge cases and failures are planned for
+- [ ] **Quality gates are defined** - Success criteria are measurable
+- [ ] **Integration points are clear** - How agent fits into existing workflow
+- [ ] **Documentation is complete** - Usage examples and troubleshooting guides included
+
+#### 🔧 Integration with Existing Workflow
+
+When creating agents that integrate with the design2code workflow:
+
+1. **Study existing agent patterns** - Review the four core agents for consistency
+2. **Plan phase integration** - Determine where new agent fits in the workflow
+3. **Define input/output formats** - Ensure compatibility with other agents
+4. **Update workflow documentation** - Add new agent to README and process flows
+5. **Create test scenarios** - Validate integration with existing phases
+
+#### 📝 Agent Creation Template
+
+Use this starter template for new agents:
+
+```markdown
+---
+description: 'Brief description of agent purpose and capabilities'
+tools: ['list', 'of', 'required', 'tools']
+---
+<instructions>
+<agent_identity>
+    <!-- Define clear identity following writingGuide patterns -->
+</agent_identity>
+
+<core_objectives>
+    <!-- Prioritized objectives with success criteria -->
+</core_objectives>
+
+<behavioral_framework>
+    <!-- Communication and decision-making patterns -->
+</behavioral_framework>
+
+<capabilities_and_limitations>
+    <!-- Explicit capabilities and boundaries -->
+</capabilities_and_limitations>
+
+<workflow_standards>
+    <!-- Step-by-step processes and quality gates -->
+</workflow_standards>
+
+<error_handling>
+    <!-- Edge case management and recovery strategies -->
+</error_handling>
+
+<output_formatting>
+    <!-- Expected response structure and formats -->
+</output_formatting>
+</instructions>
+```
+
+### Agent Creation Context Resources
 
 ### BaseUI Resources
 
