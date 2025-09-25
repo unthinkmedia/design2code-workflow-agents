@@ -56,7 +56,7 @@ When working with or extending these agents, follow these patterns:
 
 ```
 project/
-├── design-documents/           # Generated analysis and documentation
+├── .design/                   # Generated analysis and documentation
 ├── agentCreationContext/      # Agent development resources
 ├── *.chatmode.md             # Individual agent definitions
 ├── README.md                 # Complete workflow documentation

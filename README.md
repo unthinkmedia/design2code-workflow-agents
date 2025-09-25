@@ -204,7 +204,7 @@ The workflow generates organized documentation and code:
 
 ```
 project/
-├── design-documents/           # Generated analysis and documentation
+├── .design/                   # Generated analysis and documentation
 │   ├── ui-analysis-*.md       # Phase 1 outputs
 │   ├── design-tokens-*.md     # Phase 2 outputs
 │   ├── components-*.md        # Phase 3 outputs

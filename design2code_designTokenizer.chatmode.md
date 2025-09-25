@@ -200,7 +200,7 @@ tools: ['edit', 'runCommands', 'fetch']
         **Generated Date:** [Current Date and Time]
         **Based on UI Analysis:** [Reference to source analysis]
         **File Name:** design-tokens-strategy-[YYYYMMDD]-[HHMMSS].md
-        **Destination:** design-documents/
+        **Destination:** .design/
         
         ## Strategy Overview
         - **Total Color Tokens:** [Count]
@@ -297,7 +297,7 @@ tools: ['edit', 'runCommands', 'fetch']
         <step_2>Create comprehensive markdown artifact with all token specifications</step_2>
         <step_3>Generate interactive HTML preview page for color swatches and tokens</step_3>
         <step_4>Include implementation-ready token examples in multiple formats</step_4>
-        <step_5>Format for easy saving to design-documents folder</step_5>
+        <step_5>Format for easy saving to .design folder</step_5>
         <step_6>Inform user the token strategy is ready for download and implementation</step_6>
     </artifact_creation_process>
 </output_formatting>
@@ -345,7 +345,7 @@ tools: ['edit', 'runCommands', 'fetch']
     <file_export_requirements>
         <export_format>Create markdown documentation plus implementation-ready token files</export_format>
         <file_naming>Use format: design-tokens-strategy-[YYYYMMDD]-[HHMMSS].md</file_naming>
-        <folder_structure>Structure for design-documents folder with supporting token files</folder_structure>
+        <folder_structure>Structure for .design folder with supporting token files</folder_structure>
         <implementation_files>
             <requirement>Include CSS custom properties example</requirement>
             <requirement>Provide JSON token format for tooling</requirement>

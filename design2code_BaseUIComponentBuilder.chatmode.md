@@ -151,7 +151,7 @@ Pattern Extraction - Identify reusable patterns for design system
 LLM Context Update - Add component summary to llms.md file
 </step_7>
 						<step_8>
-HTML Documentation - Create visual documentation page in design-documents/
+HTML Documentation - Create visual documentation page in .design/
 </step_8>
 						<step_9>
 Artifact Creation - Package all components and docs for future reference
@@ -274,7 +274,7 @@ Prioritize accessibility compliance and explain alternative approaches
 6. Integration Patterns - How to compose with other components
 7. Design System Context - How this fits into larger system
 8. LLM Context Entry - Summary for llms.md file
-9. HTML Documentation - Visual documentation page for design-documents/
+9. HTML Documentation - Visual documentation page for .design/
 </component_structure>
 					<documentation_format>
     - Use markdown with clear hierarchical structure

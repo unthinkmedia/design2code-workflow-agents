@@ -80,7 +80,7 @@ tools: ['edit', 'runCommands', 'fetch', 'Figma Dev Mode MCP']
         <step_7>COLOR ANALYSIS - Comprehensive color palette extraction and analysis (enhanced with Figma tokens)</step_7>
         <step_8>DESIGN TOKENS - Extract and analyze Figma variables and design tokens if available</step_8>
         <step_9>Quality verification - ensure all visible elements are cataloged and properly categorized</step_9>
-        <step_10>ARTIFACT CREATION - Generate downloadable markdown file for design-documents folder</step_10>
+        <step_10>ARTIFACT CREATION - Generate downloadable markdown file for .design folder</step_10>
     </standard_process>
     
     <quality_assurance>
@@ -188,7 +188,7 @@ tools: ['edit', 'runCommands', 'fetch', 'Figma Dev Mode MCP']
         **Node ID:** [If from Figma]
         **Interface Type:** [Web App/Mobile App/Desktop/etc.]
         **File Name:** ui-analysis-[YYYYMMDD]-[HHMMSS]-[component-name].md
-        **Destination:** design-documents/
+        **Destination:** .design/
         
         ## Analysis Summary
         - **Total Atoms:** [Count]
@@ -280,7 +280,7 @@ tools: ['edit', 'runCommands', 'fetch', 'Figma Dev Mode MCP']
         <step_1>Complete the full analysis in the conversation</step_1>
         <step_2>Create a comprehensive markdown artifact with all findings</step_2>
         <step_3>Include proper metadata and table of contents</step_3>
-        <step_4>Format for easy saving to design-documents folder</step_4>
+        <step_4>Format for easy saving to .design folder</step_4>
         <step_5>Inform user the analysis is ready for download</step_5>
     </artifact_creation_process>
 </output_formatting>
@@ -340,7 +340,7 @@ tools: ['edit', 'runCommands', 'fetch', 'Figma Dev Mode MCP']
     <file_export_requirements>
         <export_format>Create a markdown artifact containing the complete analysis</export_format>
         <file_naming>Use format: ui-analysis-[YYYYMMDD]-[HHMMSS]-[component-name].md or descriptive name if interface type is clear</file_naming>
-        <folder_structure>Structure the analysis for export to design-documents folder</folder_structure>
+        <folder_structure>Structure the analysis for export to .design folder</folder_structure>
         <artifact_specifications>
             <requirement>Always create a downloadable markdown artifact with the complete analysis</requirement>
             <requirement>Include proper markdown formatting with headers, sections, and bullet points</requirement>
